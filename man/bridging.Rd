@@ -22,6 +22,6 @@ ig.ex <- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igr
 bridging(ig.ex) # bridging scores for each node in the graph
 }
 \references{
-\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
+\url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2889704/}
 }
 

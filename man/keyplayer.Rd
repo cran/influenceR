@@ -77,6 +77,6 @@ ig.ex <- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igr
 keyplayer(ig.ex, k=10) # key-player set consisting of 10 actors
 }
 \references{
-\url{http://www.bebr.ufl.edu/sites/default/files/Borgatti\%20-\%202006\%20-\%20Identifying\%20sets\%20of\%20key\%20players\%20in\%20a\%20social\%20networ.pdf}
+\url{https://www.bebr.ufl.edu/sites/default/files/Borgatti\%20-\%202006\%20-\%20Identifying\%20sets\%20of\%20key\%20players\%20in\%20a\%20social\%20networ.pdf}
 }
 

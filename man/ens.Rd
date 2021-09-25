@@ -24,6 +24,7 @@ ig.ex <- igraph::erdos.renyi.game(100, p.or.m=0.3) # generate an undirected 'igr
 ens(ig.ex) # Effective Network Size scores for each node in the graph
 }
 \references{
-\url{http://faculty.chicagobooth.edu/ronald.burt/research/files/NNappB.pdf}
+%\url{http://faculty.chicagobooth.edu/ronald.burt/research/files/NNappB.pdf}
+\url{http://ronaldsburt.com/research/files/NNappB.pdf}
 }
 

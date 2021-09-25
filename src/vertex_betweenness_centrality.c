@@ -63,7 +63,7 @@ void vertex_betweenness_centrality_parBFS(graph_t* G, double* BC, long numSrcs) 
 #ifdef DIAGNOSTIC
     double elapsed_time;
 #endif
-    int seed = 2387;
+    //int seed = 2387;
 
 #ifdef _OPENMP    
 OMP("omp parallel firstprivate(G)")
@@ -511,12 +511,12 @@ void vertex_betweenness_centrality_simple(graph_t* G, double* BC, long numSrcs) 
     long num_traversals = 0;
 #ifdef _OPENMP    
     omp_lock_t* vLock;
-    long chunkSize;
+    //long chunkSize;
 #endif
 #ifdef DIAGNOSTIC
     double elapsed_time;
 #endif
-    int seed = 2387;
+    //int seed = 2387;
 
     /* The outer loop is parallelized in this case. Each thread does a BFS 
        and the vertex BC values are incremented atomically */   
@@ -546,7 +546,7 @@ OMP("omp parallel firstprivate(G)")
 #endif
 
 #ifdef _OPENMP
-        int myLock;
+        //int myLock;
         tid = omp_get_thread_num();
         nthreads = omp_get_num_threads();
 #else
