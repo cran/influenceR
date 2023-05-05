@@ -1,4 +1,4 @@
-67f6ba0f9990fb5fa6ad9b95f19371d7 *DESCRIPTION
+c3782ec90a6dfc07f2495f85779fb06e *DESCRIPTION
 83954e81d8d7c635dcb439f2becf49a1 *NAMESPACE
 20708aebf388eb52c94e2dc22b10b65d *R/graph_metrics.R
 99808f83b946c35415996a5eb9276c37 *R/influenceR.R
@@ -16,7 +16,7 @@ d41d8cd98f00b204e9800998ecf8427e *src/Makevars.win
 ff0aa8977be870bd0e5bd900f06182f7 *src/bridging.h
 8bf5ce75bcb4bcd14edc2072fe21021e *src/graph_defs.h
 af256d982584bf5506ef7b66a4646e31 *src/init.c
-5a1c13a1c5fee6e85c357cbce3055354 *src/keyplayer-utils.c
+adc2444ca23b694a682ff4d0c433239c *src/keyplayer-utils.c
 7b083f1d14fbf87e1ef5a7f5a2dcd7ef *src/keyplayer-utils.h
 c3da83dea623c5f11c6c84684f6e76c0 *src/keyplayer.c
 d99b533d972fa41afa144ddb18962f09 *src/keyplayer.h

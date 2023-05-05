@@ -1,10 +1,10 @@
 Package: influenceR
 Title: Software Tools to Quantify Structural Importance of Nodes in a
         Network
-Version: 0.1.0.1
+Version: 0.1.0.2
 Authors@R: c(
     person("Jacobs", "Simon", email = "sdjacobs@uchicago.edu", role = "aut"),
-    person("Khanna", "Aditya", email = "khanna7@uchicago.edu", role = c("aut", "cre")),
+    person("Khanna", "Aditya", email = "khanna7@uchicago.edu", role = "aut"),
     person("Madduri", "Kamesh", email = "madduri@cse.psu.edu", role = "ctb"),
     person("Bader", "David", email = "bader@cc.gatech.edu", role = "ctb"))
 Description: Provides functionality to compute various node centrality measures on networks.
@@ -20,11 +20,11 @@ Imports: igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils
 NeedsCompilation: yes
 Suggests: testthat
 URL: https://github.com/rcc-uchicago/influenceR
-Packaged: 2021-09-25 08:29:09 UTC; ripley
+Packaged: 2023-05-05 08:32:18 UTC; ripley
 Author: Jacobs Simon [aut],
-  Khanna Aditya [aut, cre],
+  Khanna Aditya [aut],
   Madduri Kamesh [ctb],
   Bader David [ctb]
-Maintainer: Khanna Aditya <khanna7@uchicago.edu>
+Maintainer: ORPHANED
 Repository: CRAN
-Date/Publication: 2021-09-25 10:15:40 UTC
+Date/Publication: 2023-05-05 10:32:24
