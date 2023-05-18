@@ -40,10 +40,10 @@ names(bridging_values) <- V(g)$name
  
 */
 
-#include "graph_defs.h"
-
 #include <R.h>
 #include <Rinternals.h>
+
+#include "graph_defs.h"
 
 #ifdef USE_MPI
 #include <mpi.h>
@@ -276,7 +276,7 @@ double closeness(graph_t *G, long ignore_edge0, long ignore_edge1)
 long BFS_parallel_frontier_expansion_bridging(graph_t* G, long src, long diameter, double *distance, long ignore_edge0, long ignore_edge1 ) {
 
     attr_id_t* S;
-    long *start = NULL;
+    long *start;
     char* visited;
     long *pSCount;
 #ifdef DIAGNOSTIC
@@ -286,7 +286,7 @@ long BFS_parallel_frontier_expansion_bridging(graph_t* G, long src, long diamete
     omp_lock_t* vLock;
 #endif
 
-    long phase_num = 0, numPhases;
+    long phase_num, numPhases;
     long count;
 
 

@@ -3,6 +3,10 @@
 #include <stdlib.h> // for NULL
 #include <R_ext/Rdynload.h>
 
+/* FIXME: 
+   Check these declarations against the C/Fortran source code.
+*/
+
 /* .Call calls */
 extern SEXP process_sparse_R(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP);
 extern SEXP snap_betweenness_R(SEXP, SEXP, SEXP);

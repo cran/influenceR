@@ -9,13 +9,13 @@
  parallelized with OpenMP.
 */
 
-#include "graph_defs.h"
-
 #include <R.h>
 #include <Rinternals.h>
 #include <Rmath.h>
 
 #include <time.h>
+
+#include "graph_defs.h"
 
 #include "keyplayer-utils.h"
 
@@ -27,6 +27,10 @@
 int keyplayer_driver(graph_t *g, int n, int k, double p, double tol, long maxsec, int *KP)
 {
 	
+  int np, rank, new_rank = 0, stop;
+
+  double *fits;
+  int *allsets;
   time_t start;
 
   GetRNGstate(); // rather than srand
@@ -81,8 +85,8 @@ int keyplayer_driver_omp(graph_t *g, int n, int k, double p, double tol, long ma
 
   int np, rank, new_rank = 0, stop;
 
-  double *fits = NULL;
-  int *allsets = NULL;
+  double *fits;
+  int *allsets;
   time_t start, fullstart;
   int ret = 1;
 
